@@ -1,2 +1,1 @@
-const isEmptyArray = arr => !arr.length;
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const lastElement = arr => arr[arr.length - 1];
