@@ -1,3 +1,3 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const merge = Object.assign({}, obj1, obj2);
-const goToTop = () => window.scrollTo(0, 0);
+console.log(1 +  "2" + "2");
+console.log( "A" - "B" + 2);
+console.log(false == '0');
