@@ -1,2 +1,2 @@
-var arr3 = "jones".split('');
-const result = await makeHttpRequest(url);
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const isEmptyArray = arr => !arr.length;
