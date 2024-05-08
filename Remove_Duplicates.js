@@ -1,2 +1,1 @@
-const merge = (a, b) => a.concat(b);
-const channel = getChannel(computedAppVersion);
+console.log("1 || 2 = "+(1 || 2));
