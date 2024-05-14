@@ -1,3 +1,3 @@
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-[foo, bar] = [bar, foo];
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+var arr2 = arr1.reverse();
