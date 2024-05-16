@@ -1,3 +1,3 @@
-const randomString = () => Math.random().toString(36).slice(2);
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const merge = [...new Set([...a, ...b])];
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const randomBoolean = () => Math.random() >= 0.5;
