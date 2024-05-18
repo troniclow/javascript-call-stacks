@@ -1,1 +1,1 @@
-const maxNumber = arr => Math.max(...arr);
+const currentDate = () => new Date().toLocaleDateString('en-US');
