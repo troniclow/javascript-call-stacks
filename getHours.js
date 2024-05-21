@@ -1,1 +1,1 @@
-const isEmptyArray = arr => !arr.length;
+const toggleBool = () => (bool = !bool);
