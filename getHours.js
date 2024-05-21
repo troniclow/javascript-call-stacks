@@ -1,1 +1,1 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
+const isEmptyArray = arr => !arr.length;
