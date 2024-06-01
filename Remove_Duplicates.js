@@ -1,2 +1,1 @@
-console.log( "A" - "B" + 2);
-var arr2 = arr1.reverse();
+const allResults = await Promise.all(items.map(async (item) => {}));
