@@ -1,1 +1,1 @@
-const result = await makeHttpRequest(url);
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
