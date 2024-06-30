@@ -1,1 +1,1 @@
-const reversedString = str => str.split('').reverse().join('');
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
