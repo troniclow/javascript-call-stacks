@@ -1,3 +1,3 @@
-const maxNumber = arr => Math.max(...arr);
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const minNumber = arr => Math.min(...arr);
+const fullName = name || 'buddy';
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+var pattern = {};
