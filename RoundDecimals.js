@@ -1,2 +1,3 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-const removeDuplicates = (arr) => [...new Set(arr)];
+const executableName = getExecutableName(channel, appName);
+const isEmptyArray = arr => !arr.length;
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
