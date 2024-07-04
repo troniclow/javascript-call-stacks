@@ -1,3 +1,2 @@
-const executableName = getExecutableName(channel, appName);
-const isEmptyArray = arr => !arr.length;
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+console.log("1 && 2 = "+(1 && 2));
