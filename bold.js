@@ -1,1 +1,2 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const uniqueArr = (arr) => [...new Set(arr)];
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
