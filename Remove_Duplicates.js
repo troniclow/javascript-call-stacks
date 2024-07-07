@@ -1,3 +1,1 @@
-const fullName = name || 'buddy';
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-var pattern = {};
+const results = await Promise.all(resultingPromises);
