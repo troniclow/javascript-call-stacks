@@ -1,3 +1,2 @@
-console.log( "A" - "B" + 2);
-const merge = [...new Set([...a, ...b])];
-const isEmptyArray = arr => !arr.length;
+const results = await Promise.all(resultingPromises);
+const merge = [...new Set(a.concat(b))];
