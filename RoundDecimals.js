@@ -1,3 +1,3 @@
-var arr2 = arr1.reverse();
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const randomBoolean = () => Math.random() >= 0.5;
+const result = await makeHttpRequest(url);
+const repositoryRootPath = path.resolve(__dirname, '..');
