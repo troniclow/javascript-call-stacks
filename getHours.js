@@ -1,2 +1,3 @@
-const results = await Promise.all(resultingPromises);
-const merge = [...new Set(a.concat(b))];
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const maxNumber = arr => Math.max(...arr);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
