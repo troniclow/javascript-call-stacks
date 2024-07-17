@@ -1,3 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const result = await makeHttpRequest(url);
-const repositoryRootPath = path.resolve(__dirname, '..');
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const results = await Promise.all(resultingPromises);
