@@ -1,2 +1,2 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const currentDate = () => new Date().toLocaleDateString('en-US');
