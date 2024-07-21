@@ -1,3 +1,3 @@
-const minNumber = arr => Math.min(...arr);
-const maxNumber = arr => Math.max(...arr);
-console.log( "A" - "B" + "2");
+[foo, bar] = [bar, foo];
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const apmRootPath = path.join(repositoryRootPath, 'apm');
