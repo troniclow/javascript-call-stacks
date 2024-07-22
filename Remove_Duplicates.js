@@ -1,3 +1,3 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-console.log("0 || 1 = "+(0 || 1));
-const repositoryRootPath = path.resolve(__dirname, '..');
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const fullName = name || 'buddy';
