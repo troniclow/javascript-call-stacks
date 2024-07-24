@@ -1,3 +1,3 @@
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-const fullName = name || 'buddy';
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const randomString = () => Math.random().toString(36).slice(2);
+var pattern = {};
