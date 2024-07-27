@@ -1,3 +1,3 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const maxNumber = arr => Math.max(...arr);
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+var arr2 = arr1.reverse();
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
