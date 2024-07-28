@@ -1,3 +1,3 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const randomString = () => Math.random().toString(36).slice(2);
-var pattern = {};
+const lastElement = arr => arr[arr.length - 1];
+const allResults = await Promise.all(items.map(async (item) => {}));
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
