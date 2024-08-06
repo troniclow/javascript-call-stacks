@@ -1,1 +1,1 @@
-var arr1 = "john".split('');
+const result = await makeHttpRequest(url);
