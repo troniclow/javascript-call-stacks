@@ -1,2 +1,2 @@
-const merge = [...new Set([...a, ...b])];
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const goToTop = () => window.scrollTo(0, 0);
+var DELIM_SIZE = 4;
