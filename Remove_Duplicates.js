@@ -1,2 +1,2 @@
-const goToTop = () => window.scrollTo(0, 0);
-var DELIM_SIZE = 4;
+const randomString = () => Math.random().toString(36).slice(2);
+const isEven = (num) => num % 2 === 0;
